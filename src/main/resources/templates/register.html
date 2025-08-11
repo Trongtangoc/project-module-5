@@ -14,23 +14,23 @@
     <label>Username:</label>
     <input type="text" th:field="*{username}"/>
     <div th:errors="*{username}" style="color:red;"></div>
-    
+
     <label>Email:</label>
     <input type="email" th:field="*{email}"/>
     <div th:errors="*{email}" style="color:red;"></div>
-    
+
     <label>Phone:</label>
     <input type="text" th:field="*{phone}"/>
     <div th:errors="*{phone}" style="color:red;"></div>
-    
+
     <label>Password:</label>
     <input type="password" th:field="*{password}"/>
     <div th:errors="*{password}" style="color:red;"></div>
-    
+
     <label>Confirm Password:</label>
     <input type="password" th:field="*{confirmPassword}"/>
     <div th:errors="*{confirmPassword}" style="color:red;"></div>
-    
+
     <button type="submit">Register</button>
 </form>
 
